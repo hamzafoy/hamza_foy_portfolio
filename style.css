@@ -14,7 +14,6 @@ tr {
     vertical-align: top;
     background-color: goldenrod;
     height: 100vh;
-    width: 100vh;
 }
 
 #horizontal_wrap {
@@ -24,8 +23,8 @@ tr {
     left: 0;
 }
 
-#horizontal_wrap section {
-    
+.segment p {
+    padding: 0 100px;
 }
 
 p {
