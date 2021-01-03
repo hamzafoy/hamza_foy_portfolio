@@ -14,17 +14,18 @@ tr {
     vertical-align: top;
     background-color: goldenrod;
     height: 100vh;
+    width: 100vh;
 }
 
 #horizontal_wrap {
-    width: 2500px;
+    width: 5000px;
     position: absolute;
     top: 0;
     left: 0;
 }
 
 #horizontal_wrap section {
-    width: 100vh;
+    
 }
 
 p {
