@@ -1,3 +1,7 @@
+/*-- Font Families --*/
+
+@font-face {font-family: "PoiretOne-Regular"; src: url("fonts/PoiretOne-Regular.ttf"); }
+
 @media (min-width: 1300px) {
 
 body {
