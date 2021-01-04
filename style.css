@@ -2,6 +2,9 @@
 
 @font-face {font-family: "PoiretOne-Regular"; src: url("fonts/PoiretOne-Regular.ttf"); }
 
+
+/*-- Media Queries --*/
+
 @media (min-width: 1300px) {
 
 body {
@@ -17,6 +20,10 @@ table {
 tr {
     vertical-align: top;
     background-color: goldenrod;
+    height: 100vh;
+}
+
+img {
     height: 100vh;
 }
 
