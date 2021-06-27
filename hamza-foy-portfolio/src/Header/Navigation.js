@@ -1,11 +1,12 @@
 import React from 'react';
+import './Navigation.css'
 
 const webDeveloper = {
     name: 'Hamza Foy',
     title: 'Freelance Web Developer'
 }
 
-class Header extends React.Component {
+class Navigation extends React.Component {
     render() {
 
         return (
@@ -18,4 +19,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default Navigation;

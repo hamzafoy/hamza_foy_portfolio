@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Header from './Header/Header'
+import Navigation from './Header/Navigation'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    <Navigation />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
