@@ -8,11 +8,11 @@ const webDeveloper = {
 
 class Navigation extends React.Component {
     render() {
-
+        const dayAndNight = new Date().getHours();
         return (
             <div className="header-container">
                 <section className="author">
-                    {webDeveloper.name} :: {webDeveloper.title}
+                    {webDeveloper.name} &#9876; {webDeveloper.title} by {dayAndNight >= 12 ? 'day' : 'night'}
                 </section>
             </div>
         )
