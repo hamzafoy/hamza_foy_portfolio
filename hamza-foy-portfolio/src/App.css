@@ -1,10 +1,10 @@
 .App {
-  text-align: center;
-  background-color: #FEE1C7;
   height: 100vh;
+  background-color: #FFF4EB;
+  text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
+  height: 40vmin;
 }

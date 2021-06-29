@@ -1,5 +1,24 @@
+@font-face {font-family: "Voltaire-Regular"; src: url("./Voltaire-Regular.ttf"); }
+
 .header-container {
     display: flex;
     flex-direction: row;
-    margin: 3vh 0;
+    padding: 2.5vh 0;
+    background-color: #FB8D74;
+}
+
+
+.logo {
+    margin-left: 1vw;
+    height: 64px;
+    width: 64px;
+}
+
+.author {
+    align-self: center;
+    margin-left: 1vw;
+    font-size: 1.75em;
+    font-family: 'Voltaire-Regular';
+    word-spacing: 2px;
+    color: #fff9f5;
 }
