@@ -7,13 +7,13 @@ import github from './github.svg'
 const webDeveloper = {
     name: 'Hamza Foy',
     logo: './hamza_Foy_Logo.png',
-    title: ['Freelance Web Developer', 'Loving Husband', 'Respected Community Member', 'Junior Full-Stack Engineer']
+    title: ['Freelance Web Developer', 'Loving Husband', 'Respected Community Member', 'Junior Full-Stack Engineer', 'Small Business Aficionado']
 }
 
 class Navigation extends React.Component {
     render() {
         const dayAndNight = new Date().getHours();
-        let randomNum = Math.floor((Math.random() * 4));
+        let randomNum = Math.floor((Math.random() * 5));
         return (
             <div className="header-container">
                 
@@ -24,8 +24,8 @@ class Navigation extends React.Component {
                     </aside>
                 </section>
                 <section className="icon-list">
-                    <img className="icon" src={github} alt="Hamza's Github"/>
-                    <img className="icon" src={linkedin} alt="Hamza's LinkedIn"/>
+                    <a href="https://github.com/hamzafoy" target="_blank" rel="noreferrer"><img className="icon" src={github} alt="Hamza's Github"/></a>
+                    <a href="https://www.linkedin.com/in/ross-hamza-foy/" target="_blank" rel="noreferrer"><img className="icon" src={linkedin} alt="Hamza's LinkedIn"/></a>
                 </section>
             </div>
         )
