@@ -6,13 +6,13 @@ class Timeline extends React.Component {
         return(
             <div className="timeline-container">
 
-                <aside className="test-one">
-                    Hamza Foy's Web Anthology
-                </aside>
+                <section className="timeline">
 
-                <aside className="test-two">
-                    This is a test of the container
-                </aside>
+                    <h1>
+                    Hamza Foy's Web Anthology
+                    </h1>
+                    
+                </section>
 
             </div>
         )
