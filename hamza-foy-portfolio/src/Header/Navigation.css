@@ -1,12 +1,14 @@
-@font-face {font-family: "Voltaire-Regular"; src: url("./Voltaire-Regular.ttf"); }
+@font-face {font-family: "AdventPro-Light"; src: url("./AdventPro-Light.ttf"); }
 
 .header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5vh 0;
-    background-color: #FB8D74;
-    border-bottom: thick double #c8705c;
+    position: fixed;
+    width: 100%;
+    padding: 1vh 0;
+    background-color: #E79CAA;
+    border-bottom: thick double #a16d76;
 }
 
 
@@ -21,9 +23,9 @@
     display: flex;
     flex-direction: row;
     font-size: 1.75em;
-    font-family: 'Voltaire-Regular';
+    font-family: 'AdventPro-Light';
     word-spacing: 2px;
-    color: #fff9f5;
+    color: #fffaee;
 }
 
 
@@ -47,7 +49,7 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #fff9f5 }
+    50% { border-color: #fffaee }
 }
 
 

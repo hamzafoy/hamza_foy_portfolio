@@ -1,11 +1,10 @@
 import './App.css';
+import Timeline from './Timeline/Timeline'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hamza Foy's Anthology
-      </header>
+      <Timeline/>
     </div>
   );
 }

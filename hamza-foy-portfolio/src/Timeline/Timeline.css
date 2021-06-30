@@ -1,0 +1,23 @@
+.timeline-container {
+    display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 100vh;
+    background-color: red;
+}
+
+.test-one {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: blue;
+}
+
+.test-two {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: green;
+}
