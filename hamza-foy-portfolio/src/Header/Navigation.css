@@ -3,22 +3,42 @@
 .header-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 2.5vh 0;
     background-color: #FB8D74;
+    border-bottom: thick double #c8705c;
 }
 
 
 .logo {
-    margin-left: 1vw;
+    margin: 0 2vw;
     height: 64px;
     width: 64px;
 }
 
+
 .author {
-    align-self: center;
-    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
     font-size: 1.75em;
     font-family: 'Voltaire-Regular';
     word-spacing: 2px;
     color: #fff9f5;
+}
+
+
+.author aside {
+    align-self: center;
+}
+
+
+.icon-list {
+    align-self: center;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+    padding-right: 1vw;
+    filter: invert(84%) sepia(1%) saturate(2130%) hue-rotate(320deg) brightness(117%) contrast(103%);
 }
