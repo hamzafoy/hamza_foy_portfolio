@@ -40,4 +40,6 @@
 
 .timeline-handler label {
     text-align: center;
+    font-family: 'JosefinSlab-Thin';
+    margin: 1vh 0 0;
 }

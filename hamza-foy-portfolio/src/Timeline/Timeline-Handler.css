@@ -1,6 +1,7 @@
 input[type=range] {
-    width: 100%;
-    margin: 15.8px 0;
+    display: block;
+    width: 65%;
+    margin: 0 auto;
     background-color: transparent;
     -webkit-appearance: none;
   }
@@ -11,7 +12,7 @@ input[type=range] {
     background: rgba(58, 48, 66, 0.7);
     border: 0.2px solid #010101;
     border-radius: 1.3px;
-    width: 100%;
+    width: 65%;
     height: 8.4px;
     cursor: pointer;
   }
@@ -33,7 +34,7 @@ input[type=range] {
     background: rgba(58, 48, 66, 0.7);
     border: 0.2px solid #010101;
     border-radius: 1.3px;
-    width: 100%;
+    width: 65%;
     height: 8.4px;
     cursor: pointer;
   }
@@ -51,7 +52,7 @@ input[type=range] {
     border-color: transparent;
     border-width: 15.8px 0;
     color: transparent;
-    width: 100%;
+    width: 65%;
     height: 8.4px;
     cursor: pointer;
   }
