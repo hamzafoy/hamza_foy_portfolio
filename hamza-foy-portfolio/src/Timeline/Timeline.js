@@ -11,6 +11,10 @@ class Timeline extends React.Component {
                     <h1>
                     Hamza Foy's Web Anthology
                     </h1>
+
+                    <p>
+                    This is a test
+                    </p>
                     
                 </section>
 

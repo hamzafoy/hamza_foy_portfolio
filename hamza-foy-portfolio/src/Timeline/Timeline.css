@@ -1,4 +1,5 @@
 @font-face {font-family: "JosefinSlab-Regular"; src: url("./JosefinSlab-Regular.ttf"); }
+@font-face {font-family: "JosefinSlab-Thin"; src: url("./JosefinSlab-Thin.ttf"); }
 
 
 .timeline-container {
@@ -23,5 +24,11 @@
 .timeline h1 {
     font-size: 24px;
     font-family: 'JosefinSlab-Regular';
+    text-align: center;
+}
+
+.timeline p {
+    font-size: 20px;
+    font-family: 'JosefinSlab-Thin';
     text-align: center;
 }
