@@ -32,3 +32,12 @@
     font-family: 'JosefinSlab-Thin';
     text-align: center;
 }
+
+.timeline-handler {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-handler label {
+    text-align: center;
+}
