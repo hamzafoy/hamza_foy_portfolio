@@ -61,5 +61,10 @@
     height: 32px;
     width: 32px;
     padding-right: 1vw;
+    transition: all 1s;
     filter: invert(84%) sepia(1%) saturate(2130%) hue-rotate(320deg) brightness(117%) contrast(103%);
+}
+
+.icon:hover {
+    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
 }
