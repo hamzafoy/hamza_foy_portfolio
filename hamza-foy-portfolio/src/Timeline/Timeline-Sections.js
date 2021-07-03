@@ -17,7 +17,7 @@ const timelineSections = {
     itemTwo: (
         <section className="timeline-display-two">
             <h1>
-                Volume I: The things I will do, what they are, yet I know not. . .
+                Volume I: The things I will do, what they are yet, I know not. . .
             </h1>
 
             <p>
@@ -52,7 +52,7 @@ const timelineSections = {
 
             <p>
                 I began to learn more about the JavaScript programming language including, but not
-                limited to, frameworks such as ExpressJS and libraries including React and Sockets.io.
+                limited to, frameworks such as ExpressJS and libraries including React.
                 Although my strength would lean more towards the front-end, I take great interest in the backend
                 leveraging Node.js and currently learning more about SQL and SQL-based databases with accompanying
                 ORMs such as Sequelize.
@@ -69,14 +69,14 @@ const timelineSections = {
             </h1>
 
             <p>
-                I began to learn more about the JavaScript programming language including, but not
-                limited to, frameworks such as ExpressJS and libraries including React and Sockets.io.
-                Although my strength would lean more towards the front-end, I take great interest in the backend
-                leveraging Node.js and currently learning more about SQL and SQL-based databases with accompanying
-                ORMs such as Sequelize.
+                I am systematically pursuing my learning in frontend and backend development.
+                I have already developed, from scratch, a number of websites for small businesses in my local community
+                and deployed a few apps. In addition, I have learned about static site generators including Surge.sh
+                (I actively push updates to the Kebab on Wheels site using Surge for example) and am looking into using libraries
+                including Sockets.io and d3.js. 
                 <br/><br/>
-                I am currently still enrolled in Code Louisville and completed a general JavaScript cohort and
-                a FullStack JavaScript cohort.
+                I am continuing my education through the Treehouse, Pluralsight, and
+                Codecademy platforms. I am currently enrolled in the AWS Practitioners cohort in Code Louisville.
             </p>
         </section>
     )

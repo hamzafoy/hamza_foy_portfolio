@@ -32,7 +32,7 @@ class Timeline extends React.Component {
             case '4':
                 timelineDisplay = timelineSections.itemFour;
                 break;
-            case '4':
+            case '5':
                 timelineDisplay = timelineSections.itemFive;
                 break;
         }
