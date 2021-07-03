@@ -47,7 +47,25 @@ const timelineSections = {
     itemFour: (
         <section className="timeline-display-four">
             <h1>
-                Volume III: Everything in this world is magic, except to the magician. . .
+                Volume IV: Everything in this world is magic, except to the magician. . .
+            </h1>
+
+            <p>
+                I began to learn more about the JavaScript programming language including, but not
+                limited to, frameworks such as ExpressJS and libraries including React and Sockets.io.
+                Although my strength would lean more towards the front-end, I take great interest in the backend
+                leveraging Node.js and currently learning more about SQL and SQL-based databases with accompanying
+                ORMs such as Sequelize.
+                <br/><br/>
+                I am currently still enrolled in Code Louisville and completed a general JavaScript cohort and
+                a FullStack JavaScript cohort.
+            </p>
+        </section>
+    ),
+    itemFive: (
+        <section className="timeline-display-five">
+            <h1>
+                Volume V: Folly of my kind, there's always a yearning for more. . .
             </h1>
 
             <p>

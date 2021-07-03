@@ -31,6 +31,10 @@ class Timeline extends React.Component {
                 break;
             case '4':
                 timelineDisplay = timelineSections.itemFour;
+                break;
+            case '4':
+                timelineDisplay = timelineSections.itemFive;
+                break;
         }
 
         return(
