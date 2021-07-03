@@ -1,22 +1,8 @@
 import React from 'react';
 import './Timeline.css';
 import './Timeline-Handler.css'
+import timelineSections from './Timeline-Sections'
 
-const timelineSections = {
-    itemOne: (
-        <section className="timeline-display-one">
-            <h1>
-                Volume I: In the beginning. . .
-            </h1>
-
-            <p>
-                In the beginning, there was light on the screen and code written on it.
-                First, I learned HTML - that structure rendered in my browser.
-                Then, I learned CSS - the rendered code in my browser filled with color and style.
-            </p>
-        </section>
-    )
-}
 
 class Timeline extends React.Component {
     constructor(props) {
@@ -32,9 +18,16 @@ class Timeline extends React.Component {
 
     render() {
         let timelineDisplay;
-        if (this.state.value === '1') {
-            timelineDisplay = timelineSections.itemOne;
+        
+        switch (this.state.value) {
+            case '1':
+                timelineDisplay = timelineSections.itemOne;
+                break;
+            case '2':
+                timelineDisplay = timelineSections.itemTwo;
+                break;
         }
+
         return(
             <div className="timeline-container">
 
