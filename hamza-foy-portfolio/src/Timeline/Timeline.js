@@ -2,10 +2,18 @@ import React from 'react';
 import './Timeline.css';
 import './Timeline-Handler.css'
 
-const timelineObject = {
+const timelineSections = {
     itemOne: (
-        <section>
-            This is a test
+        <section className="timeline-display-one">
+            <h1>
+                Volume I: In the beginning. . .
+            </h1>
+
+            <p>
+                In the beginning, there was light on the screen and code written on it.
+                First, I learned HTML - that structure rendered in my browser.
+                Then, I learned CSS - the rendered code in my browser filled with color and style.
+            </p>
         </section>
     )
 }
@@ -13,7 +21,7 @@ const timelineObject = {
 class Timeline extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {value: '0'};
+        this.state = {value: '1'};
         this.handleChange = this.handleChange.bind(this);
     }
 
@@ -23,6 +31,10 @@ class Timeline extends React.Component {
     }
 
     render() {
+        let timelineDisplay;
+        if (this.state.value === '1') {
+            timelineDisplay = timelineSections.itemOne;
+        }
         return(
             <div className="timeline-container">
 
@@ -38,21 +50,11 @@ class Timeline extends React.Component {
 
                     <aside className="timeline-handler">
                         <input type="range" id="timeline-range" name="timeline-range"
-                                min="0" max="5" defaultValue="0" onChange={this.handleChange}/>
+                                min="1" max="5" defaultValue="1" onChange={this.handleChange}/>
                         <label for="timeline-range">From earliest to greatest</label>
                     </aside>
 
-                    <section className="timeline-display-one">
-                        <h1>
-                            Volume I: In the beginning. . .
-                        </h1>
-
-                        <p>
-                            In the beginning, there was light on the screen and code written on it.
-                            First, I learned HTML - that structure rendered in my browser.
-                            Then, I learned CSS - the rendered code in my browser filled with color and style.
-                        </p>
-                    </section>                    
+                    {timelineDisplay}
                     
                 </section>
 

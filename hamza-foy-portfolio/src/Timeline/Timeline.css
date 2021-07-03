@@ -1,6 +1,5 @@
 @font-face {font-family: "JosefinSlab-Regular"; src: url("./JosefinSlab-Regular.ttf"); }
 @font-face {font-family: "JosefinSlab-Thin"; src: url("./JosefinSlab-Thin.ttf"); }
-@font-face {font-family: "AdventPro-Light"; src: url("./AdventPro-Light.ttf"); }
 
 
 .timeline-container {
@@ -47,9 +46,16 @@
 
 .timeline-display-one {
     margin: 10vh 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .timeline-display-one h1 {
     font-family: 'JosefinSlab-Regular';
     font-weight: normal;
+}
+
+.timeline-display-one p {
+    width: 80%;
 }
