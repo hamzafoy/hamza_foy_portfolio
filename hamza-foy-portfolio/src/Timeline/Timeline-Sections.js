@@ -2,18 +2,35 @@ const timelineSections = {
     itemOne: (
         <section className="timeline-display-one">
             <h1>
-                Volume I: In the beginning. . .
+                Prologue
+            </h1>
+
+            <p>
+                My name is Hamza Foy, a junior web designer and developer with a growing list
+                of projects and websites to my name. I have gotten to that point in my burgeoning career
+                where I need a portfolio site to demonstrate my skillset as well as tell my story
+                whether to prospective employer, potential client, or curious reader. Much obliged for gracing
+                my web anthology and enjoy!
+            </p>
+        </section>
+    ),
+    itemTwo: (
+        <section className="timeline-display-two">
+            <h1>
+                Volume I: The things I will do, what they are, yet I know not. . .
             </h1>
 
             <p>
                 In the beginning, there was light on the screen and code written on it.
                 First, I learned HTML - that structure rendered in my browser.
                 Then, I learned CSS - the rendered code in my browser filled with color and style.
+                <br/><br/>
+                I began to learn through the Treehouse platform and enrolled in Code Louisville.
             </p>
         </section>
     ),
-    itemTwo: (
-        <section className="timeline-display-two">
+    itemThree: (
+        <section className="timeline-display-three">
             <h1>
                 Volume II: It doesn't look like anything to me. . .
             </h1>
@@ -22,6 +39,26 @@ const timelineSections = {
                 As I explored HTML and CSS, in the hopes of designing visually pleasing websites,
                 I came to realize that the structure and the style did not interact or move.
                 I set out to learn JavaScript and loved the simple syntax and the logic it encouraged.
+                <br/><br/>
+                I am accepted into Code Louisville and complete my Front End Development cohort.
+            </p>
+        </section>
+    ),
+    itemFour: (
+        <section className="timeline-display-four">
+            <h1>
+                Volume III: Everything in this world is magic, except to the magician. . .
+            </h1>
+
+            <p>
+                I began to learn more about the JavaScript programming language including, but not
+                limited to, frameworks such as ExpressJS and libraries including React and Sockets.io.
+                Although my strength would lean more towards the front-end, I take great interest in the backend
+                leveraging Node.js and currently learning more about SQL and SQL-based databases with accompanying
+                ORMs such as Sequelize.
+                <br/><br/>
+                I am currently still enrolled in Code Louisville and completed a general JavaScript cohort and
+                a FullStack JavaScript cohort.
             </p>
         </section>
     )

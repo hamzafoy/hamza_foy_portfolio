@@ -41,11 +41,14 @@
 .timeline-handler label {
     text-align: center;
     font-family: 'JosefinSlab-Thin';
-    margin: 1vh 0 0;
+    margin: 2.5vh 0 0;
+    font-size: 14px;
 }
 
 .timeline-display-one,
-.timeline-display-two {
+.timeline-display-two,
+.timeline-display-three,
+.timeline-display-four {
     margin: 10vh 0 0;
     display: flex;
     flex-direction: column;
@@ -53,12 +56,19 @@
 }
 
 .timeline-display-one h1,
-.timeline-display-two h1 {
+.timeline-display-two h1,
+.timeline-display-three h1,
+.timeline-display-four h1 {
     font-family: 'JosefinSlab-Regular';
     font-weight: normal;
+    font-size: 21px;
+    width: 80%;
 }
 
 .timeline-display-one p,
-.timeline-display-two p {
-    width: 80%;
+.timeline-display-two p,
+.timeline-display-three p,
+.timeline-display-four p {
+    width: 75%;
+    font-size: 16px;
 }

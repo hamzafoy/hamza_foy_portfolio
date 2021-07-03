@@ -26,6 +26,11 @@ class Timeline extends React.Component {
             case '2':
                 timelineDisplay = timelineSections.itemTwo;
                 break;
+            case '3':
+                timelineDisplay = timelineSections.itemThree;
+                break;
+            case '4':
+                timelineDisplay = timelineSections.itemFour;
         }
 
         return(
@@ -44,7 +49,7 @@ class Timeline extends React.Component {
                     <aside className="timeline-handler">
                         <input type="range" id="timeline-range" name="timeline-range"
                                 min="1" max="5" defaultValue="1" onChange={this.handleChange}/>
-                        <label for="timeline-range">From earliest to greatest</label>
+                        <label for="timeline-range">Kudos if you learn my favorite show by virtue of the volume titles</label>
                     </aside>
 
                     {timelineDisplay}
