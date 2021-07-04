@@ -27,6 +27,22 @@ const timelineSections = {
                 <br/><br/>
                 I began to learn through the Treehouse platform and enrolled in Code Louisville.
             </p>
+
+            <div className="timeline-date-container">
+                <aside className="timeline-dates">
+                    <h2>
+                        2017
+                    </h2>
+                        Enrolled in the Treehouse Learning Platform
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2017
+                    </h2>
+                        Enrolled in Code Louisville
+                </aside>
+            </div>
+            
         </section>
     ),
     itemThree: (

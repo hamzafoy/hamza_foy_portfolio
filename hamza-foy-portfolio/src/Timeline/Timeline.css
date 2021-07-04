@@ -7,7 +7,7 @@
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     height: 100vh;
-    background-color: #fffaee;
+    background-color: #DEF1F7;
 }
 
 .timeline {
@@ -16,9 +16,9 @@
     grid-row-start: 2;
     grid-row-end: 6;
     color: #fffaee;
-    background-color: #88C284;
-    box-shadow: 9.5px 9.5px 4px #6c9b69;
-    outline: 4px solid #93c890;
+    background-color: #655676;
+    box-shadow: 9.5px 9.5px 4px #C2B8CC;
+    outline: 4px solid #51455F;
 }
 
 .timeline h1 {
@@ -50,7 +50,7 @@
 .timeline-display-three,
 .timeline-display-four,
 .timeline-display-five {
-    margin: 10vh 0 0;
+    margin: 4.5vh 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +64,7 @@
     font-family: 'JosefinSlab-Regular';
     font-weight: normal;
     font-size: 21px;
+    margin: 0 0;
     width: 80%;
 }
 
@@ -74,4 +75,29 @@
 .timeline-display-five p {
     width: 75%;
     font-size: 16px;
+}
+
+.timeline-date-container {
+    display: flex;
+    flex-direction: column;
+    margin: 4.5vh 0 0;
+}
+
+.timeline-dates {
+    background-color: #837198;
+    border: 3px outset #8f7fa2;
+    font-family: 'JosefinSlab-Thin';
+    font-size: 0.85em;
+    padding: .75vh 1vw;
+    width: 95%;
+    
+}
+
+.timeline-dates h2 {
+    margin: 0 0 .5em;
+    font-weight: normal;
+    font-family: 'JosefinSlab-Regular';
+    font-size: 1.75em;
+    color: #fffaee;
+    border-bottom: 2px double #D7EDD4;
 }
