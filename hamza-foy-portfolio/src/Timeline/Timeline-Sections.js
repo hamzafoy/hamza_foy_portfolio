@@ -58,30 +58,68 @@ const timelineSections = {
                 <br/><br/>
                 I am accepted into Code Louisville and complete my Front End Development cohort.
             </p>
+
+            <div className="timeline-date-container">
+                <aside className="timeline-dates">
+                    <h2>
+                        2018
+                    </h2>
+                        Accepted into the Code Louisville program
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2019
+                    </h2>
+                        Successfully completed my frontend development cohort with Code Louisville
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2019
+                    </h2>
+                        Built my first website for the Young Leaders Academy in the West Buechel neighborhood
+                </aside>
+            </div>
         </section>
     ),
     itemFour: (
         <section className="timeline-display-four">
             <h1>
-                Volume IV: Everything in this world is magic, except to the magician. . .
+                Volume III: Everything in this world is magic, except to the magician. . .
             </h1>
 
             <p>
                 I began to learn more about the JavaScript programming language including, but not
                 limited to, frameworks such as ExpressJS and libraries including React.
-                Although my strength would lean more towards the front-end, I take great interest in the backend
-                leveraging Node.js and currently learning more about SQL and SQL-based databases with accompanying
-                ORMs such as Sequelize.
-                <br/><br/>
-                I am currently still enrolled in Code Louisville and completed a general JavaScript cohort and
-                a FullStack JavaScript cohort.
+                Although my strength is in the frontend, I take great interest in the backend
+                leveraging Node.js and learn about ORMs and SQL-based databases.
             </p>
+
+            <div className="timeline-date-container">
+                <aside className="timeline-dates">
+                    <h2>
+                        2019
+                    </h2>
+                        Successfully complete my General JavaScript cohort with Code Louisville
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2019
+                    </h2>
+                        Developed a number of websites for small business clients including M&amp;D Event Planners.
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2019
+                    </h2>
+                        Built my first website for the Young Leaders Academy in the West Buechel neighborhood
+                </aside>
+            </div>
         </section>
     ),
     itemFive: (
         <section className="timeline-display-five">
             <h1>
-                Volume V: Folly of my kind, there's always a yearning for more. . .
+                Volume IV: Folly of my kind, there's always a yearning for more. . .
             </h1>
 
             <p>

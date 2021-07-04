@@ -14,7 +14,7 @@
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 7;
     color: #fffaee;
     background-color: #655676;
     box-shadow: 9.5px 9.5px 4px #C2B8CC;
@@ -79,7 +79,10 @@
 
 .timeline-date-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1em;
     margin: 4.5vh 0 0;
 }
 
@@ -87,9 +90,9 @@
     background-color: #837198;
     border: 3px outset #8f7fa2;
     font-family: 'JosefinSlab-Thin';
-    font-size: 0.85em;
-    padding: .75vh 1vw;
-    width: 95%;
+    font-size: 0.75em;
+    padding: .50vh .75vw;
+    width: 40%;
     
 }
 
