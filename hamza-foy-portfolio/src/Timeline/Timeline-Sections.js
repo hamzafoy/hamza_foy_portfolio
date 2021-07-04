@@ -55,7 +55,6 @@ const timelineSections = {
                 As I explored HTML and CSS, in the hopes of designing visually pleasing websites,
                 I came to realize that the structure and the style did not interact or move.
                 I set out to learn JavaScript and loved the simple syntax and the logic it encouraged.
-                <br/><br/>
                 I am accepted into Code Louisville and complete my Front End Development cohort.
             </p>
 
@@ -113,6 +112,12 @@ const timelineSections = {
                     </h2>
                         Built my first website for the Young Leaders Academy in the West Buechel neighborhood
                 </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2020
+                    </h2>
+                        Built my first app, Guiding Light Library Manager, for a cohort capstone project and a local mosque in Louisville
+                </aside>
             </div>
         </section>
     ),
@@ -125,13 +130,36 @@ const timelineSections = {
             <p>
                 I am systematically pursuing my learning in frontend and backend development.
                 I have already developed, from scratch, a number of websites for small businesses in my local community
-                and deployed a few apps. In addition, I have learned about static site generators including Surge.sh
-                (I actively push updates to the Kebab on Wheels site using Surge for example) and am looking into using libraries
-                including Sockets.io and d3.js. 
-                <br/><br/>
-                I am continuing my education through the Treehouse, Pluralsight, and
+                and deployed a few apps. I am continuing my education through the Treehouse, Pluralsight, and
                 Codecademy platforms. I am currently enrolled in the AWS Practitioners cohort in Code Louisville.
             </p>
+
+            <div className="timeline-date-container">
+                <aside className="timeline-dates">
+                    <h2>
+                        2020
+                    </h2>
+                        Successfully complete my Fullstack JavaScript cohort with Code Louisville
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2020
+                    </h2>
+                        Deployed my first app on Heroku, Porcus Verto (Pig Latin Translator)
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2021
+                    </h2>
+                        Joined the Mintbean.io community of developers and programmers
+                </aside>
+                <aside className="timeline-dates">
+                    <h2>
+                        2021
+                    </h2>
+                        Enrolled in an AWS Practitioners cohort with Code Louisville
+                </aside>
+            </div>
         </section>
     )
 }
