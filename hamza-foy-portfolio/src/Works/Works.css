@@ -16,7 +16,13 @@
     grid-row-start: 2;
     grid-row-end: 7;
     color: #fffaee;
-    background-color: #655676;
-    box-shadow: 9.5px 9.5px 4px #C2B8CC;
-    outline: 4px solid #51455F;
+    background-color: #A32100;
+    box-shadow: 9.5px 9.5px 4px #FFAD99;
+    outline: 4px solid #8F1D00;
+}
+
+.works-cited h1 {
+    font-size: 24px;
+    font-family: 'JosefinSlab-Regular';
+    text-align: center;
 }

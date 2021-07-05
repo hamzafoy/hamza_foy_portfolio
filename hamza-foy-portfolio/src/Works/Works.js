@@ -8,8 +8,12 @@ class Works extends React.Component {
 
                 <section className="works-cited">
 
+                    <h1>
+                        My Previous Projects
+                    </h1>
+
                 </section>
-                
+
             </div>
         )
     }
