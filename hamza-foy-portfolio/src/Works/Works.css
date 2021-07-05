@@ -30,6 +30,7 @@
 .works-section {
     display: Flex;
     justify-content: space-evenly;
+    margin: 0 0 5vh;
 }
 
 .techs-primer {
@@ -63,7 +64,7 @@
     line-height: 1.25em;
 }
 
-.kebab-wheels-foto {
+.project-fotos {
     margin-right: 1vw;
     height: 125px;
     width: 250px;
