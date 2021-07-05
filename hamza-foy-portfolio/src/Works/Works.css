@@ -33,7 +33,10 @@
 }
 
 .techs-primer {
-    width: 50%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tech-svg-container {
@@ -44,19 +47,24 @@
 }
 
 .tech-icon {
-    height: 48px;
-    width: 48px;
+    height: 36px;
+    width: 36px;
     filter: invert(87%) sepia(12%) saturate(245%) hue-rotate(339deg) brightness(110%) contrast(104%);
 }
 
+.tech-icon:last-of-type {
+    filter: none;
+}
+
 .techs-primer p {
-    margin: 0 0;
+    margin: 0 1vw;
     font-family: 'JosefinSlab-Thin';
     font-size: 12px;
     line-height: 1.25em;
 }
 
 .kebab-wheels-foto {
+    margin-right: 1vw;
     height: 125px;
     width: 250px;
 }

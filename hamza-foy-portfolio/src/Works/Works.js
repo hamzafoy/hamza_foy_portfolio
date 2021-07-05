@@ -1,8 +1,10 @@
 import React from 'react';
 import './Works.css';
-import kebab from './kebab-wheels-foto.png'
+import kebab from './img/kebab-wheels-foto.png'
 import css3 from './img/css3_2.svg'
 import html5 from './img/html.svg'
+import javascript from './img/javascript_3.svg'
+import surgesh from './img/surge-sh.svg'
 
 class Works extends React.Component {
     render() {
@@ -21,6 +23,8 @@ class Works extends React.Component {
                             <aside className="tech-svg-container">
                                 <img className="tech-icon" src={css3}/>
                                 <img className="tech-icon" src={html5}/>
+                                <img className="tech-icon" src={javascript}/>
+                                <img className="tech-icon" src={surgesh}/>
                             </aside>
                             <p>
                                 This website, developed for Abdullah Mahmoud, for the Kebab on Wheels food truck utilized
