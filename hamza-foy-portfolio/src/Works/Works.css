@@ -1,0 +1,22 @@
+@font-face {font-family: "JosefinSlab-Regular"; src: url("./JosefinSlab-Regular.ttf"); }
+@font-face {font-family: "JosefinSlab-Thin"; src: url("./JosefinSlab-Thin.ttf"); }
+
+.works-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 100vh;
+    padding: 10vh 0 10vh;
+    background-color: #CEEAF3;
+}
+
+.works-cited {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    color: #fffaee;
+    background-color: #655676;
+    box-shadow: 9.5px 9.5px 4px #C2B8CC;
+    outline: 4px solid #51455F;
+}
