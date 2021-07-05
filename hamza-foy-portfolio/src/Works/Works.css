@@ -26,3 +26,37 @@
     font-family: 'JosefinSlab-Regular';
     text-align: center;
 }
+
+.works-section {
+    display: Flex;
+    justify-content: space-evenly;
+}
+
+.techs-primer {
+    width: 50%;
+}
+
+.tech-svg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tech-icon {
+    height: 48px;
+    width: 48px;
+    filter: invert(87%) sepia(12%) saturate(245%) hue-rotate(339deg) brightness(110%) contrast(104%);
+}
+
+.techs-primer p {
+    margin: 0 0;
+    font-family: 'JosefinSlab-Thin';
+    font-size: 12px;
+    line-height: 1.25em;
+}
+
+.kebab-wheels-foto {
+    height: 125px;
+    width: 250px;
+}

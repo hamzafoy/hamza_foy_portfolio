@@ -1,5 +1,8 @@
 import React from 'react';
 import './Works.css';
+import kebab from './kebab-wheels-foto.png'
+import css3 from './img/css3_2.svg'
+import html5 from './img/html.svg'
 
 class Works extends React.Component {
     render() {
@@ -11,6 +14,23 @@ class Works extends React.Component {
                     <h1>
                         My Previous Projects
                     </h1>
+
+                    <div className="works-section">
+
+                        <section className="techs-primer">
+                            <aside className="tech-svg-container">
+                                <img className="tech-icon" src={css3}/>
+                                <img className="tech-icon" src={html5}/>
+                            </aside>
+                            <p>
+                                This website, developed for Abdullah Mahmoud, for the Kebab on Wheels food truck utilized
+                                Surge.sh SSG to push updates requested by the client onto the domain in a swift fashion.
+                            </p>
+                        </section>
+
+                        <img className="kebab-wheels-foto" src={kebab} alt="Kebab on Wheels homepage"/>
+
+                    </div>
 
                 </section>
 
