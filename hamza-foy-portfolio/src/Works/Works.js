@@ -38,9 +38,6 @@ class Works extends React.Component {
                
                {worksToBeDisplayed} 
 
-                
-
-
                 </section>
 
             </div>

@@ -60,6 +60,12 @@
     filter: none;
 }
 
+.tech-icon-color-resized {
+    height: 48px;
+    width: 72px;
+    filter: none;
+}
+
 .techs-primer p {
     margin: 0 1vw;
     font-family: 'JosefinSlab-Thin';
