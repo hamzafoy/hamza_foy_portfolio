@@ -35,6 +35,8 @@ class Timeline extends React.Component {
             case '5':
                 timelineDisplay = timelineSections.itemFive;
                 break;
+            default:
+                break;
         }
 
         return(

@@ -5,8 +5,8 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    height: 100vh;
-    padding: 10vh 0 10vh;
+    height: 125vh;
+    padding: 1vh 0 10vh;
     background-color: #CEEAF3;
 }
 
@@ -53,7 +53,9 @@
     filter: invert(87%) sepia(12%) saturate(245%) hue-rotate(339deg) brightness(110%) contrast(104%);
 }
 
-.tech-icon:last-of-type {
+.tech-icon-color {
+    height: 36px;
+    width: 36px;
     filter: none;
 }
 

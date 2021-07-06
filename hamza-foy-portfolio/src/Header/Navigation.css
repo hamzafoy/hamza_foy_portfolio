@@ -9,6 +9,7 @@
     padding: 1vh 0;
     background-color: #8ACDE5;
     border-bottom: thick double #34A8D2;
+    z-index: 10;
 }
 
 
