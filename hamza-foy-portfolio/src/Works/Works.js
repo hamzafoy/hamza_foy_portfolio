@@ -90,7 +90,7 @@ class Works extends React.Component {
 
                     </div>
 
-                    <div className="works-section">
+                    <div className="works-section-last">
 
                         <section className="techs-primer">
                             <aside className="tech-svg-container">
@@ -109,8 +109,11 @@ class Works extends React.Component {
                     </div>
 
                     <div className="radio-box">
+                        <h2>Websites / Apps</h2>
+                        <form>
                         <input className="radio-buttons" type="radio" name="option" value="1" checked={this.state.selectedRadio === "1"} onChange={this.handleChange}/>
                         <input className="radio-buttons" type="radio" name="option" value="2" checked={this.state.selectedRadio === "2"} onChange={this.handleChange}/>
+                        </form>
                     </div>
 
 

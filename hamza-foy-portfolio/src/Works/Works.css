@@ -33,6 +33,12 @@
     margin: 0 0 5vh;
 }
 
+.works-section-last {
+    display: Flex;
+    justify-content: space-evenly;
+    margin: 0 0 2vh;
+}
+
 .techs-primer {
     width: 55%;
     display: flex;
@@ -72,7 +78,19 @@
     width: 250px;
 }
 
+.radio-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio-box h2 {
+    font-family: 'JosefinSlab-Thin';
+    font-size: 14px;
+    font-weight: normal;
+}
+
 .radio-buttons {
-    height: 48px;
-    width: 48px;
+    height: 24px;
+    width: 24px;
 }
