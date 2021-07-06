@@ -38,7 +38,7 @@
     width: 55%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .tech-svg-container {
@@ -46,6 +46,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin: 0 0;
 }
 
 .tech-icon {
@@ -67,10 +68,19 @@
 }
 
 .techs-primer p {
-    margin: 0 1vw;
+    margin: 0 1vw 0;
     font-family: 'JosefinSlab-Thin';
     font-size: 12px;
     line-height: 1.25em;
+}
+
+.this-project-h1 {
+    font-weight: normal;
+    padding: 0 0 2vh;
+}
+
+.this-project-p {
+    padding: 2vh 0 0;
 }
 
 .project-fotos {

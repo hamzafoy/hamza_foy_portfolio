@@ -4,6 +4,7 @@ import ihya from './img/ihya-502.png'
 import learnabit from './img/learn-bit.png'
 import porcus from './img/porcus-verto.png'
 import azm from './img/azm.png'
+import gliclibrary from './img/glic-library.png'
 import css3 from './img/css3_2.svg'
 import html5 from './img/html.svg'
 import javascript from './img/javascript_3.svg'
@@ -12,6 +13,8 @@ import glitch from './img/glitch_logo.svg'
 import heroku from './img/heroku.svg'
 import expressjs from './img/expressjs.svg'
 import pug from './img/pug.svg'
+import sequel from './img/sequelize.svg'
+import reactjs from './img/reactjs.svg'
 
 
 const worksSection = {
@@ -148,20 +151,63 @@ const worksSection = {
                 <section className="techs-primer">
 
                     <aside className="tech-svg-container">
+                        <img className="tech-icon-color-resized" src={expressjs} alt="ExpressJS Badge"/>
+                        <img className="tech-icon-color" src={sequel} alt="Sequelize Badge"/>
+                        <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
+                    </aside>
+
+                <p>
+                The Guiding Light Library Manager is a library-management app for a local mosque in Louisville.
+                I built this app as a capstone for my FullStack JS cohort with Code Louisville. This app uses SQLite3 &amp; Sequelize.
+                </p>
+
+                </section>
+
+                <img className="project-fotos" src={gliclibrary} alt="Guiding Light Library Manager"/>
+
+            </div>
+
+
+
+            <div className="works-section">
+
+                <section className="techs-primer">
+
+                    <aside className="tech-svg-container">
                         <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
                         <img className="tech-icon" src={html5} alt="HTML5 Badge"/>
                         <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
                     </aside>
 
                 <p>
-                This is one of the first apps I designed upon joining Code Louisville. The AZM app, currently undeployed,
-                drew from various APIs to render a random verse from the Qu'ran, the current weather and temperature in Louisville,
-                and had a basic task list.
+                This is one of the first apps I designed. The AZM app, currently undeployed, drew from various APIs to render a random verse 
+                from the Qu'ran, the current weather and temperature in Louisville, and had a basic task list.
                 </p>
 
                 </section>
 
                 <img className="project-fotos" src={azm} alt="Guiding Light Workflow app"/>
+
+            </div>
+
+            <div className="works-section">
+
+                <section className="techs-primer">
+
+                    <h1 className="this-project-h1">
+                    This Portfolio
+                    </h1>
+
+                    <aside className="tech-svg-container">
+                        <img className="tech-icon-color" src={reactjs} alt="ReactJS Badge"/>
+                        <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
+                    </aside>
+
+                <p className="this-project-p">
+                This portfolio utilizes ReactJS &amp; Vanilla JavaScript with respect to ECMA 2015 standards.
+                </p>
+
+                </section>
 
             </div>
 
