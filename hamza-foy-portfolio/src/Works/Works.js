@@ -11,6 +11,19 @@ import surgesh from './img/surge-sh.svg'
 import glitch from './img/glitch_logo.svg'
 
 class Works extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            selectedRadio: "1"
+        }
+    }
+
+    handleChange = event => {
+        this.setState({
+            selectedRadio: event.target.value
+        })
+    }
+
     render() {
         return(
             <div className="works-container">
@@ -96,7 +109,8 @@ class Works extends React.Component {
                     </div>
 
                     <div className="radio-box">
-
+                        <input className="radio-buttons" type="radio" name="option" value="1" checked={this.state.selectedRadio === "1"} onChange={this.handleChange}/>
+                        <input className="radio-buttons" type="radio" name="option" value="2" checked={this.state.selectedRadio === "2"} onChange={this.handleChange}/>
                     </div>
 
 
