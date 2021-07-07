@@ -17,7 +17,7 @@ class Navigation extends React.Component {
         const dayAndNight = new Date().getHours();
         let randomNum = Math.floor((Math.random() * 5));
         return (
-            <div className="header-container">
+            <div className="header-container" id="react-scroll-top">
 
                 <section className="author">
 
