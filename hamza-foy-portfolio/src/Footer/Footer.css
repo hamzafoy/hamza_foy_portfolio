@@ -1,0 +1,14 @@
+@font-face {font-family: "AdventPro-Light"; src: url("./AdventPro-Light.ttf"); }
+
+.footer-container {
+    width: 100%;
+    height: 10vh;
+    background-color: #8ACDE5;
+    border-top: thick double #34A8D2;
+}
+
+.footer-container h2 {
+    font-weight: normal;
+    font-family: 'AdventPro-Light';
+    color: #fffaee;
+}

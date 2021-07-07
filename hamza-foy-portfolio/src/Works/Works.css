@@ -5,8 +5,8 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    height: 125vh;
-    padding: 1vh 0 10vh;
+    height: 120vh;
+    padding: 1vh 0 25vh;
     background-color: #CEEAF3;
 }
 
