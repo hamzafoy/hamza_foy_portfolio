@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import upicon from './up_arrow.svg'
 
 class Footer extends React.Component {
     render() {
@@ -8,6 +9,7 @@ class Footer extends React.Component {
                 <h2>
                     Hamza Foy - Web Designer, Programmer
                 </h2>
+                <a href=".header-container" className="back-to-top"><img src={upicon} className="up-icon"/></a>
             </div>
         )
     }

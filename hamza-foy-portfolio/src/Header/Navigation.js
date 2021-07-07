@@ -3,6 +3,8 @@ import './Navigation.css';
 import logo from './hamza_Foy_Logo.png'
 import linkedin from './linkedin.svg'
 import github from './github.svg'
+import resume from './resume-2.svg'
+import resumedoc from './Hamza_Foy_Resume.docx'
 
 const webDeveloper = {
     name: 'Hamza Foy',
@@ -31,6 +33,7 @@ class Navigation extends React.Component {
 
                     <a href="https://github.com/hamzafoy" target="_blank" rel="noreferrer"><img className="icon" src={github} alt="Hamza's Github"/></a>
                     <a href="https://www.linkedin.com/in/ross-hamza-foy/" target="_blank" rel="noreferrer"><img className="icon" src={linkedin} alt="Hamza's LinkedIn"/></a>
+                    <a href={resumedoc} target="_blank" rel="noreferrer" download><img className="icon" src={resume} alt="Hamza's Resume"/></a>
                 
                 </section>
 
