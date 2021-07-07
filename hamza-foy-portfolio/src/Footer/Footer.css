@@ -2,7 +2,7 @@
 
 .footer-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -12,14 +12,14 @@
 }
 
 .footer-container h2 {
-    margin-left: 2vw;
+    margin-right: 2vw;
     font-weight: normal;
     font-family: 'AdventPro-Light';
     color: #fffaee;
 }
 
 .up-icon {
-    margin-right: 2vw;
+    margin-left: 2vw;
     height: 32px;
     width: 32px;
     transition: all 1s;
