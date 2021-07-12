@@ -7,7 +7,10 @@ class Resume extends React.Component {
             <div className="resume-container">
                 
                 <section className="resume-listing">
-                    Hamza Foy
+                    
+                    <h1 className="resume-heading">
+                        Hamza Foy
+                    </h1>
                 </section>
 
             </div>
