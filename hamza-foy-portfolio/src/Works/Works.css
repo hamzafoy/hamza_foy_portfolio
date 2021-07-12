@@ -58,7 +58,7 @@
 
 .tech-icon-resized {
     height: 36px;
-    width: 46px;
+    width: 44px;
     filter: none;
 }
 
@@ -77,11 +77,15 @@
 
 .this-project-h1 {
     font-weight: normal;
-    padding: 0 0 2vh;
 }
 
 .this-project-p {
     padding: 2vh 0 0;
+}
+
+.this-project-p code {
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .radio-box {

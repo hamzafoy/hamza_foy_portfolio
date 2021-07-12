@@ -119,7 +119,7 @@ const worksSection = {
                     </h1>
 
                     <aside className="tech-svg-container">
-                        <img className="tech-icon" src={expressjs} alt="ExpressJS Badge"/>
+                        <img className="tech-icon-resized" src={expressjs} alt="ExpressJS Badge"/>
                         <img className="tech-icon" src={pug} alt="Pug Templating Engine Badge"/>
                         <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
                         <img className="tech-icon" src={heroku} alt="Heroku App Deployment Badge"/>
@@ -154,7 +154,7 @@ const worksSection = {
 
                 <p>
                 The Guiding Light Library Manager is a library-management app for a local mosque in Louisville.
-                I built this app as a capstone for my FullStack JS cohort with Code Louisville. This app uses SQLite3 &amp; Sequelize.
+                I built this app as a capstone for Code Louisville. This app uses SQLite3 &amp; Sequelize.
                 </p>
 
                 </section>
@@ -164,8 +164,6 @@ const worksSection = {
             </div>
 
 
-
-            <div className="works-section">
 
                 <section className="techs-primer">
 
@@ -179,12 +177,11 @@ const worksSection = {
                     </aside>
 
                 <p className="this-project-p">
-                This portfolio utilizes ReactJS &amp; Vanilla JavaScript with respect to ECMA 2015 standards.
+                This portfolio utilizes ReactJS &amp; Vanilla JavaScript with respect to ECMA 2015 standards. Some of the
+                dependencies used include: <code>react-scroll</code>.
                 </p>
 
                 </section>
-
-            </div>
 
         </div>
     )
