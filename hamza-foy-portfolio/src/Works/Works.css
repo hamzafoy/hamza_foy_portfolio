@@ -33,13 +33,14 @@
     justify-content: space-between;
     margin: 0 0 5vh;
     background-color: #c77966;
+    border: 3px outset #8f7fa2;
 }
 
 .techs-primer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .tech-svg-container {
@@ -70,7 +71,7 @@
 .techs-primer p {
     margin: 0 1vw 0;
     font-family: 'JosefinSlab-Thin';
-    font-size: 12px;
+    font-size: 18px;
     line-height: 1.25em;
 }
 

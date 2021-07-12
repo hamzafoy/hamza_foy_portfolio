@@ -23,6 +23,10 @@ const worksSection = {
 
                 <section className="techs-primer">
 
+                <h1 className="this-project-h1">
+                    Kebab on Wheels
+                    </h1>
+
                     <aside className="tech-svg-container">
                         <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
                         <img className="tech-icon" src={html5} alt="HTML5 Badge"/>
@@ -46,6 +50,10 @@ const worksSection = {
             <div className="works-section">
 
                 <section className="techs-primer">
+
+                <h1 className="this-project-h1">
+                    Ihya502 Podcast
+                    </h1>
 
                     <aside className="tech-svg-container">
 
@@ -72,6 +80,10 @@ const worksSection = {
             <div className="works-section">
 
                 <section className="techs-primer">
+
+                <h1 className="this-project-h1">
+                    Learn-a-Bits
+                    </h1>
 
                     <aside className="tech-svg-container">
 
@@ -102,6 +114,10 @@ const worksSection = {
 
                 <section className="techs-primer">
 
+                <h1 className="this-project-h1">
+                    Pig Latin Translator
+                    </h1>
+
                     <aside className="tech-svg-container">
                         <img className="tech-icon" src={expressjs} alt="ExpressJS Badge"/>
                         <img className="tech-icon" src={pug} alt="Pug Templating Engine Badge"/>
@@ -125,6 +141,10 @@ const worksSection = {
             <div className="works-section">
 
                 <section className="techs-primer">
+
+                <h1 className="this-project-h1">
+                    Library Manager
+                    </h1>
 
                     <aside className="tech-svg-container">
                         <img className="tech-icon-resized" src={expressjs} alt="ExpressJS Badge"/>
