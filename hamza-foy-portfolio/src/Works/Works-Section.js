@@ -1,9 +1,7 @@
 import kebab from './img/kebab-wheels-foto.png'
-import mdevent from './img/mdevent.png'
 import ihya from './img/ihya-502.png'
 import learnabit from './img/learn-bit.png'
 import porcus from './img/porcus-verto.png'
-import azm from './img/azm.png'
 import gliclibrary from './img/glic-library.png'
 import css3 from './img/css3_2.svg'
 import html5 from './img/html.svg'
@@ -29,7 +27,7 @@ const worksSection = {
                         <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
                         <img className="tech-icon" src={html5} alt="HTML5 Badge"/>
                         <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
-                        <img className="tech-icon-color" src={surgesh} alt="Surge SSG Badge"/>
+                        <img className="tech-icon" src={surgesh} alt="Surge SSG Badge"/>
                     </aside>
 
                     <p>
@@ -50,34 +48,11 @@ const worksSection = {
                 <section className="techs-primer">
 
                     <aside className="tech-svg-container">
-                        <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
-                        <img className="tech-icon" src={html5} alt="HTML5 Badge"/>
-                        <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
-                    </aside>
-
-                <p>
-                This website, developed for Amina Mahamud, for the M&amp;D Event Planner company is designed
-                using the parallax effect using CSS and JavaScript.
-                </p>
-
-                </section>
-
-                <img className="project-fotos" src={mdevent} alt="MD Event Planner homepage"/>
-
-            </div>
-
-
-
-            <div className="works-section">
-
-                <section className="techs-primer">
-
-                    <aside className="tech-svg-container">
 
                         <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
                         <img className="tech-icon" src={html5} alt="HTML5 Badge"/>
                         <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
-                        <img className="tech-icon-color" src={glitch} alt="Glitch Deployment Site Badge"/>
+                        <img className="tech-icon" src={glitch} alt="Glitch Deployment Site Badge"/>
 
                     </aside>
 
@@ -102,7 +77,7 @@ const worksSection = {
 
                         <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
                         <img className="tech-icon" src={html5} alt="HTML5 Badge"/>
-                        <img className="tech-icon-color" src={surgesh} alt="Surge SSG Badge"/>
+                        <img className="tech-icon" src={surgesh} alt="Surge SSG Badge"/>
                     
                     </aside>
 
@@ -119,6 +94,7 @@ const worksSection = {
 
         </div>
     ),
+
     itemTwo: (
         <div className="switch-contain">
 
@@ -127,10 +103,10 @@ const worksSection = {
                 <section className="techs-primer">
 
                     <aside className="tech-svg-container">
-                        <img className="tech-icon-color-resized" src={expressjs} alt="ExpressJS Badge"/>
-                        <img className="tech-icon-color" src={pug} alt="Pug Templating Engine Badge"/>
+                        <img className="tech-icon" src={expressjs} alt="ExpressJS Badge"/>
+                        <img className="tech-icon" src={pug} alt="Pug Templating Engine Badge"/>
                         <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
-                        <img className="tech-icon-color" src={heroku} alt="Heroku App Deployment Badge"/>
+                        <img className="tech-icon" src={heroku} alt="Heroku App Deployment Badge"/>
                     </aside>
 
                     <p>
@@ -151,8 +127,8 @@ const worksSection = {
                 <section className="techs-primer">
 
                     <aside className="tech-svg-container">
-                        <img className="tech-icon-color-resized" src={expressjs} alt="ExpressJS Badge"/>
-                        <img className="tech-icon-color" src={sequel} alt="Sequelize Badge"/>
+                        <img className="tech-icon-resized" src={expressjs} alt="ExpressJS Badge"/>
+                        <img className="tech-icon" src={sequel} alt="Sequelize Badge"/>
                         <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
                     </aside>
 
@@ -173,33 +149,12 @@ const worksSection = {
 
                 <section className="techs-primer">
 
-                    <aside className="tech-svg-container">
-                        <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
-                        <img className="tech-icon" src={html5} alt="HTML5 Badge"/>
-                        <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
-                    </aside>
-
-                <p>
-                This is one of the first apps I designed. The AZM app, currently undeployed, drew from various APIs to render a random verse 
-                from the Qu'ran, the current weather and temperature in Louisville, and had a basic task list.
-                </p>
-
-                </section>
-
-                <img className="project-fotos" src={azm} alt="Guiding Light Workflow app"/>
-
-            </div>
-
-            <div className="works-section">
-
-                <section className="techs-primer">
-
                     <h1 className="this-project-h1">
                     This Portfolio
                     </h1>
 
                     <aside className="tech-svg-container">
-                        <img className="tech-icon-color" src={reactjs} alt="ReactJS Badge"/>
+                        <img className="tech-icon" src={reactjs} alt="ReactJS Badge"/>
                         <img className="tech-icon" src={javascript} alt="JavaScript Badge"/>
                     </aside>
 

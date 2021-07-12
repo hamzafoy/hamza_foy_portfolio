@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    height: 120vh;
+    height: 200vh;
     padding: 1vh 0 25vh;
     background-color: #CEEAF3;
 }
@@ -30,12 +30,13 @@
 
 .works-section {
     display: Flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0 0 5vh;
+    background-color: #c77966;
 }
 
 .techs-primer {
-    width: 55%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -46,25 +47,24 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 0;
 }
 
 .tech-icon {
-    height: 36px;
-    width: 36px;
-    filter: invert(87%) sepia(12%) saturate(245%) hue-rotate(339deg) brightness(110%) contrast(104%);
-}
-
-.tech-icon-color {
-    height: 36px;
-    width: 36px;
+    height: 32px;
+    width: 32px;
     filter: none;
 }
 
-.tech-icon-color-resized {
-    height: 48px;
-    width: 72px;
+.tech-icon-resized {
+    height: 36px;
+    width: 46px;
     filter: none;
+}
+
+.project-fotos {
+    height: 350px;
+    width: 375px;
+    opacity: 0.85;
 }
 
 .techs-primer p {
@@ -81,12 +81,6 @@
 
 .this-project-p {
     padding: 2vh 0 0;
-}
-
-.project-fotos {
-    margin-right: 1vw;
-    height: 125px;
-    width: 250px;
 }
 
 .radio-box {
