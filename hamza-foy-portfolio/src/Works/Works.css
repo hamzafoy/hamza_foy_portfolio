@@ -58,7 +58,7 @@
 .project-fotos {
     height: 250px;
     width: 100%;
-    opacity: 0.75;
+    opacity: 0.85;
 }
 
 .techs-primer p {
@@ -115,6 +115,7 @@
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 12;
+    width: auto;
     color: #fffaee;
     background-color: #A32100;
     box-shadow: 9.5px 9.5px 4px #FFAD99;
@@ -129,7 +130,8 @@
 }
 
 .works-section {
-    display: Flex;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 0 0 5vh;
     background-color: #c77966;

@@ -13,14 +13,15 @@ class Footer extends React.Component {
     render() {
         return(
             <div className="footer-container">
-                <h2>
+                <div className="footer-icons">
+                    <h2>
                     Hamza Foy - Web Designer, Programmer - 
                     Reach me:
-                    <div className="footer-icons">
-                        <a href="mailto:hamzaoflouisville@gmail.com" target="_blank" rel="noreferrer"><img className="contact" src={email} alt="Gmail" title="Email me!"/></a>
-                        <a href="https://api.whatsapp.com/send?phone=15029308391&text=Hello!" rel="noreferrer" target="_blank"><img className="contact" src={whatsapp} alt="Whatsapp" title="Whatsapp me!"/></a>
-                    </div>
-                </h2>
+                    </h2>
+                    <a href="mailto:hamzaoflouisville@gmail.com" target="_blank" rel="noreferrer"><img className="contact" src={email} alt="Gmail" title="Email me!"/></a>
+                    <a href="https://api.whatsapp.com/send?phone=15029308391&text=Hello!" rel="noreferrer" target="_blank"><img className="contact" src={whatsapp} alt="Whatsapp" title="Whatsapp me!"/></a>
+                </div>
+                
                 <Link
                 to="react-scroll-top"
                 smooth={true}

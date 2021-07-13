@@ -111,12 +111,13 @@
 .timeline-container {
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
     color: #fffaee;
     background-color: #655676;
     box-shadow: 9.5px 9.5px 4px #C2B8CC;
     outline: 4px solid #51455F;
+    width: auto;
 } 
 
 .timeline h1 {

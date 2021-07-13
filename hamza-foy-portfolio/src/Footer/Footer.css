@@ -1,7 +1,44 @@
 @font-face {font-family: "AdventPro-Light"; src: url("./AdventPro-Light.ttf"); }
 
 .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #8ACDE5;
+    border-top: thick double #34A8D2;
+}
+
+.footer-icons {
+    margin-left: 1vw;
+}
+
+.footer-icons h2 {
     display: none;
+}
+
+.contact {
+    height: 32px;
+    width: 32px;
+    transition: all 1s;
+    filter: invert(84%) sepia(1%) saturate(2130%) hue-rotate(320deg) brightness(117%) contrast(103%);
+}
+
+.contact:hover {
+    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
+}
+
+.contact:last-of-type {
+    margin-left: 4vw;
+}
+
+.up-icon {
+    margin-right: 4vw;
+    height: 32px;
+    width: 32px;
+    transition: all 1s;
+    filter: invert(84%) sepia(1%) saturate(2130%) hue-rotate(320deg) brightness(117%) contrast(103%);
 }
 
 @media (min-width: 860px) {
@@ -17,17 +54,18 @@
     border-top: thick double #34A8D2;
 }
 
-.footer-container h2 {
-    display: flex;
-    flex-direction: row;
-    margin-right: 2vw;
+.footer-icons h2 {
     font-weight: normal;
     font-family: 'AdventPro-Light';
     color: #fffaee;
 }
 
 .footer-icons {
-    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1.5vw;
 }
 
 .contact {
