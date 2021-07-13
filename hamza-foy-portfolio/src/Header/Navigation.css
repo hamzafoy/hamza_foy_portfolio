@@ -1,7 +1,73 @@
 @font-face {font-family: "AdventPro-Light"; src: url("./AdventPro-Light.ttf"); }
 
 .header-container {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 1vh 0;
+    background-color: #8ACDE5;
+    border-bottom: thick double #34A8D2;
+    z-index: 10;
+}
+
+.logo {
+    margin: 0 4vw;
+    height: 32px;
+    width: 32px;
+    align-self: center;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    font-size: .95em;
+    font-family: 'AdventPro-Light';
+    word-spacing: .25px;
+    color: #fffaee;
+}
+
+.author aside {
+    align-self: center;
+    overflow: hidden;
+    border-right: .15em solid transparent;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end 7;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fffaee }
+}
+
+
+.icon-list {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 2vw;
+}
+
+.icon {
+    height: 12px;
+    width: 12px;
+    padding-right: 1vw;
+    transition: all 1s;
+    filter: invert(84%) sepia(1%) saturate(2130%) hue-rotate(320deg) brightness(117%) contrast(103%);
+}
+
+.icon:hover {
+    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
 }
 
 @media (min-width: 860px) {
@@ -61,6 +127,8 @@
 
 
 .icon-list {
+    display: flex;
+    flex-direction: row;
     align-self: center;
     margin-right: 2vw;
 }
