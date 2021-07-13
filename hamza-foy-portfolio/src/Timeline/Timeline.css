@@ -4,10 +4,10 @@
 .timeline-container {
     margin: 12vh 0;
     padding: 0 0;
-    color: #fffaee;
-    background-color: #655676;
-    box-shadow: 9.5px 9.5px 4px #C2B8CC;
-    outline: 4px solid #51455F;
+    color: black;
+    background-color: #e9b6a5;
+    box-shadow: 6.5px 9.5px 4px #f8e8e2;
+    outline: 4px double #e4a591;
     width: 80%;
     align-self: center;
 }
@@ -21,6 +21,7 @@
 .timeline p {
     font-size: 16px;
     font-family: 'JosefinSlab-Thin';
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -34,6 +35,7 @@
 .timeline-handler label {
     text-align: center;
     font-family: 'JosefinSlab-Thin';
+    font-weight: bolder;
     margin: 3vh 0 0;
     font-size: 11px;
 }
@@ -56,7 +58,7 @@
 .timeline-display-five h1 {
     font-family: 'JosefinSlab-Regular';
     font-weight: normal;
-    font-size: 21px;
+    font-size: 24px;
     margin: 0 0;
     width: 88%;
 }
@@ -66,8 +68,8 @@
 .timeline-display-three p,
 .timeline-display-four p,
 .timeline-display-five p {
-    width: 85%;
-    font-size: 14px;
+    width: 90%;
+    font-size: 16px;
 }
 
 .timeline-date-container {
@@ -76,14 +78,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: .25em;
-    margin: 1.5vh 0 0;
+    margin: 1.5vh 0 1.5vh;
 }
 
 .timeline-dates {
-    background-color: #837198;
-    border: 3px outset #8f7fa2;
+    background-color: #f3d7ce;
+    border: 3px outset #e9b6a5;
     font-family: 'JosefinSlab-Thin';
-    font-size: 0.75em;
+    font-weight: bolder;
+    font-size: 0.95em;
     padding: .50vh .75vw;
     width: 40%;
     
@@ -94,8 +97,8 @@
     font-weight: normal;
     font-family: 'JosefinSlab-Regular';
     font-size: 1.75em;
-    color: #fffaee;
-    border-bottom: 2px double #D7EDD4;
+    color: black;
+    border-bottom: 2px double #8ACDE5;
 }
 
 @media (min-width: 860px) {
@@ -113,10 +116,10 @@
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 6;
-    color: #fffaee;
-    background-color: #655676;
-    box-shadow: 9.5px 9.5px 4px #C2B8CC;
-    outline: 4px solid #51455F;
+    color: black;
+    background-color: #e9b6a5;
+    box-shadow: 6.5px 9.5px 4px #f8e8e2;
+    outline: 4px double #e4a591;
     width: auto;
     margin: 0 0;
 } 
@@ -130,6 +133,7 @@
 .timeline p {
     font-size: 20px;
     font-family: 'JosefinSlab-Thin';
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -141,6 +145,7 @@
 .timeline-handler label {
     text-align: center;
     font-family: 'JosefinSlab-Thin';
+    font-weight: bolder;
     margin: 2.5vh 0 0;
     font-size: 14px;
 }
@@ -183,14 +188,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 1em;
-    margin: 4.5vh 0 0;
+    margin: 4.5vh 0 2.5vh;
 }
 
 .timeline-dates {
-    background-color: #837198;
-    border: 3px outset #8f7fa2;
+    background-color: #f3d7ce;
+    border: 3px outset #e9b6a5;
     font-family: 'JosefinSlab-Thin';
-    font-size: 0.75em;
+    font-weight: bolder;
+    font-size: 1.05em;
     padding: .50vh .75vw;
     width: 40%;
     
@@ -201,8 +207,8 @@
     font-weight: normal;
     font-family: 'JosefinSlab-Regular';
     font-size: 1.75em;
-    color: #fffaee;
-    border-bottom: 2px double #D7EDD4;
+    color: black;
+    border-bottom: 2px double #8ACDE5;
 }
 
 }
