@@ -61,12 +61,12 @@
 .headshot {
     height: 442px;
     width: 100%;
-    transform: perspective(3000px) rotateY(2deg);
-    transition: transform 1.5s ease 0s;
+    transform: none;
+    transition: none;
 }
 
 .headshot:hover {
-    transform: perspective(1500px) rotateY(35deg);
+    transform: none;
 }
 
 .button-list {
