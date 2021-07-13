@@ -1,6 +1,7 @@
 import React from 'react';
 import './Resume.css';
 import headshot from './hamzaHeadshot.png';
+import resumedoc from './Hamza_Foy_Resume.docx'
 
 class Resume extends React.Component {
     render() {
@@ -13,7 +14,7 @@ class Resume extends React.Component {
 
                 <p className="resume-subheading">
                 Have we met? If not, let's grab a coffee! Oh, and here are some of my skills!
-                My resume is on the navigation bar above along with my Github &amp; LinkedIn!
+                My <a className="anchors" href={resumedoc} target="_blank" rel="noreferrer">resume</a> is on the navigation bar above along with my Github &amp; LinkedIn!
                 </p>
                 
                 <section className="resume-listing">

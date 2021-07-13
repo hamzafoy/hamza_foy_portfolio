@@ -15,7 +15,7 @@
 .anchors {
     display: inline-block;
     position: relative;
-    color: lightyellow;
+    color: #7f7f7f;
     text-decoration: none;
     font-weight: bold;
 }
@@ -29,7 +29,7 @@
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #C2B8CC;
+    background-color: #8ACDE5;
     transition: transform 0.5s ease-out;
 }
 
@@ -150,7 +150,7 @@
 .anchors {
     display: inline-block;
     position: relative;
-    color: #fffaee;
+    color: #7f7f7f;
     text-decoration: none;
     font-weight: bold;
 }
@@ -164,7 +164,7 @@
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #C2B8CC;
+    background-color: #8ACDE5;
     transition: transform 0.5s ease-out;
 }
 
