@@ -68,7 +68,7 @@
 }
 
 .icon:hover {
-    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
+    filter: invert(77%) sepia(42%) saturate(340%) hue-rotate(323deg) brightness(98%) contrast(87%);
 }
 
 @media (min-width: 860px) {
@@ -143,7 +143,7 @@
 }
 
 .icon:hover {
-    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
+    filter: invert(77%) sepia(42%) saturate(340%) hue-rotate(323deg) brightness(98%) contrast(87%);
 }
 
 }

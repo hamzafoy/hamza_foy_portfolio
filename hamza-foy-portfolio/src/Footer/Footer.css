@@ -26,7 +26,7 @@
 }
 
 .contact:hover {
-    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
+    filter: invert(77%) sepia(42%) saturate(340%) hue-rotate(323deg) brightness(98%) contrast(87%);
 }
 
 .contact:last-of-type {
@@ -39,6 +39,10 @@
     width: 24px;
     transition: all 1s;
     filter: invert(84%) sepia(1%) saturate(2130%) hue-rotate(320deg) brightness(117%) contrast(103%);
+}
+
+.up-icon:hover {
+    filter: invert(77%) sepia(42%) saturate(340%) hue-rotate(323deg) brightness(98%) contrast(87%);
 }
 
 @media (min-width: 860px) {
@@ -76,7 +80,7 @@
 }
 
 .contact:hover {
-    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
+    filter: invert(77%) sepia(42%) saturate(340%) hue-rotate(323deg) brightness(98%) contrast(87%);
 }
 
 .contact:last-of-type {
@@ -92,7 +96,7 @@
 }
 
 .up-icon:hover {
-    filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
+    filter: invert(77%) sepia(42%) saturate(340%) hue-rotate(323deg) brightness(98%) contrast(87%);
 }
 
 }
