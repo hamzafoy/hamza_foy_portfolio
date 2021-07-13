@@ -10,6 +10,11 @@ class Resume extends React.Component {
                 <h1 className="resume-heading">
                 My name is Hamza, nice to meet you!
                 </h1>
+
+                <p className="resume-subheading">
+                Have we met? If not, let's grab a coffee! Oh, and here are some of my skills!<br/>
+                My resume is on the navigation bar above along with my Github &amp; LinkedIn!
+                </p>
                 
                 <section className="resume-listing">
                     
@@ -83,9 +88,24 @@ class Resume extends React.Component {
                         </div>
 
                     </div>
-                    
 
                 </section>
+
+                <div className="current-events">
+
+                    <h1 className="current-heading">
+                    This is what I am currently working on!
+                    </h1>
+
+                    <p className="resume-subheading">
+                    I am currently working on a multiplayer card game based on a Jordanian variant of Rummy called <a className="anchors" href="https://www.pagat.com/rummy/hand.html" target="_blank" rel="noreferrer">'Hand'</a>.
+                    I have already built out much of the card-dealing logic with vanilla JavaScript and designed the cards
+                    using the app <a className="anchors" href="https://excalidraw.com/" target="_blank" rel="noreferrer">'Excalidraw'</a>. 
+                    I will be building the front-end using React and intend to learn <a className="anchors" href="https://socket.io/get-started/" target="_blank" rel="noreferrer">sockets.io</a> to 
+                    handle the multiplayer aspects.
+                    </p>
+
+                </div>
 
             </div>
         )

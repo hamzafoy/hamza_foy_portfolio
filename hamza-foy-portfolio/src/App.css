@@ -1,6 +1,6 @@
 .App {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px;
+  grid-template-rows: 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px;
   background-color: #CEEAF3;
 }
