@@ -17,8 +17,8 @@ class Footer extends React.Component {
                     Hamza Foy - Web Designer, Programmer - 
                     Reach me:
                     <div className="footer-icons">
-                        <img className="contact" src={email} alt="Gmail" title="Email me!"/>
-                        <img className="contact" src={whatsapp} alt="Whatsapp" title="Whatsapp me!"/>
+                        <a href="mailto:hamzaoflouisville@gmail.com" target="_blank" rel="noreferrer"><img className="contact" src={email} alt="Gmail" title="Email me!"/></a>
+                        <a href="https://api.whatsapp.com/send?phone=15029308391&text=Hello!" rel="noreferrer" target="_blank"><img className="contact" src={whatsapp} alt="Whatsapp" title="Whatsapp me!"/></a>
                     </div>
                 </h2>
                 <Link
@@ -26,7 +26,8 @@ class Footer extends React.Component {
                 smooth={true}
                 duration={500}
                 spy={true}
-                ><img src={upicon} className="up-icon" alt="Back to Top!" onClick={this.scrollToTop}/>
+                >
+                    <img src={upicon} className="up-icon" alt="Back to Top!" onClick={this.scrollToTop}/>
                 </Link>
             </div>
         )

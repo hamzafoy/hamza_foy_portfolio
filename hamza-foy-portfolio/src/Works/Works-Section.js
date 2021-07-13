@@ -23,7 +23,7 @@ const worksSection = {
 
                 <section className="techs-primer">
 
-                <h1 className="this-project-h1">
+                    <h1 className="this-project-h1">
                     Kebab on Wheels
                     </h1>
 

@@ -1,6 +1,17 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+@media (min-width: 860px) {
+
+.App {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px 220px;
   background-color: #CEEAF3;
+}
+
 }

@@ -1,6 +1,12 @@
 @font-face {font-family: "AdventPro-Light"; src: url("./AdventPro-Light.ttf"); }
 
 .header-container {
+    display: none;
+}
+
+@media (min-width: 860px) {
+
+.header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,4 +75,6 @@
 
 .icon:hover {
     filter: invert(72%) sepia(31%) saturate(626%) hue-rotate(303deg) brightness(86%) contrast(85%);
+}
+
 }

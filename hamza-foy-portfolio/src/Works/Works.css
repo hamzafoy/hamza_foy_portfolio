@@ -1,6 +1,105 @@
 @font-face {font-family: "JosefinSlab-Regular"; src: url("./JosefinSlab-Regular.ttf"); }
 @font-face {font-family: "JosefinSlab-Thin"; src: url("./JosefinSlab-Thin.ttf"); }
 
+.works-container {
+    margin: 8vh 0;
+    padding: 0 0;
+    color: #fffaee;
+    background-color: #A32100;
+    box-shadow: 9.5px 9.5px 4px #FFAD99;
+    outline: 4px solid #8F1D00;
+    width: 80%;
+    align-self: center;
+}
+
+.works-cited h1 {
+    font-size: 21px;
+    font-family: 'JosefinSlab-Regular';
+    text-align: center;
+    margin: 2vh 0 .5vh;
+}
+
+.works-section {
+    display: Flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 5vh;
+    background-color: #c77966;
+    border: 3px outset #8f7fa2;
+}
+
+.techs-primer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tech-svg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.5vh 0;
+}
+
+.tech-icon {
+    height: 21px;
+    width: 21px;
+    filter: none;
+}
+
+.tech-icon-resized {
+    height: 21px;
+    width: 29px;
+    filter: none;
+}
+
+.project-fotos {
+    height: 250px;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.techs-primer p {
+    margin: 2vh 1vw 2vh;
+    font-family: 'JosefinSlab-Thin';
+    font-size: 14px;
+    line-height: 1.35em;
+}
+
+.this-project-h1 {
+    font-weight: normal;
+}
+
+.this-project-p {
+    padding: 2vh 0 0;
+}
+
+.this-project-p code {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.radio-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 2vh;
+}
+
+.radio-box h2 {
+    font-family: 'JosefinSlab-Thin';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.radio-buttons {
+    height: 18px;
+    width: 18px;
+}
+
+@media (min-width: 860px) {
 
 /* .works-container {
     display: grid;
@@ -105,4 +204,6 @@
 .radio-buttons {
     height: 24px;
     width: 24px;
+}
+
 }
