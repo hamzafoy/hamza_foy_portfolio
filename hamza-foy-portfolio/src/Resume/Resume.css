@@ -2,12 +2,12 @@
 @font-face {font-family: "JosefinSlab-Thin"; src: url("./JosefinSlab-Thin.ttf"); }
 
 .resume-container {
-    margin: 8vh 0;
+    margin: 12vh 0;
     padding: 0 0;
-    color: #fffaee;
-    background-color: #655676;
-    box-shadow: 9.5px 9.5px 4px #C2B8CC;
-    outline: 4px solid #51455F;
+    color: black;
+    background-color: #e9b6a5;
+    box-shadow: 6.5px 9.5px 4px #f8e8e2;
+    outline: 4px double #e4a591;
     width: 80%;
     align-self: center;
 }
@@ -15,7 +15,7 @@
 .anchors {
     display: inline-block;
     position: relative;
-    color: #fffaee;
+    color: lightyellow;
     text-decoration: none;
     font-weight: bold;
 }
@@ -47,6 +47,7 @@
 .resume-subheading {
     font-size: 14px;
     font-family: 'JosefinSlab-Thin';
+    font-weight: bolder;
     text-align: justify;
     margin: 0 4vw 4vh;
     line-height: 1.25em;
@@ -103,14 +104,16 @@
 }
 
 .button_side.front {
-    background-color: #837198;
-    border: 3px outset #8f7fa2;
+    background-color: #f3d7ce;
+    border: 3px outset #e9b6a5;
+    font-weight: bolder;
 }
 
 .button_side.bottom {
     transform: rotateY(-180deg);
-    background-color: #869871;
-    border: 3px outset #aab69b;
+    background-color: #ceeaf3;
+    border: 3px outset #a5d8e9;
+    font-weight: bolder;
 }
 
 .button:hover .button_side.front {
@@ -129,7 +132,7 @@
 .current-heading {
     margin: 6vh 0 1.25vh;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bolder;
     font-family: 'JosefinSlab-Regular';
     text-align: center;
 }
@@ -173,12 +176,12 @@
 .resume-container {
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start: 13;
-    grid-row-end: 16;
-    color: #fffaee;
-    background-color: #655676;
-    box-shadow: 9.5px 9.5px 4px #C2B8CC;
-    outline: 4px solid #51455F;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    color: black;
+    background-color: #e9b6a5;
+    box-shadow: 6.5px 9.5px 4px #f8e8e2;
+    outline: 4px double #e4a591;
     overflow: hidden;
 }
 
@@ -192,8 +195,9 @@
     font-size: 18px;
     font-family: 'JosefinSlab-Thin';
     text-align: center;
-    margin: 0 0 4vh;
+    margin: 0 auto 4vh;
     line-height: 1.25em;
+    width: 80%;
 }
 
 .resume-listing {
@@ -247,14 +251,16 @@
 }
 
 .button_side.front {
-    background-color: #837198;
-    border: 3px outset #8f7fa2;
+    background-color: #f3d7ce;
+    border: 3px outset #e9b6a5;
+    font-weight: bolder;
 }
 
 .button_side.bottom {
     transform: rotateY(-180deg);
-    background-color: #869871;
-    border: 3px outset #aab69b;
+    background-color: #ceeaf3;
+    border: 3px outset #a5d8e9;
+    font-weight: bolder;
 }
 
 .button:hover .button_side.front {
@@ -273,7 +279,7 @@
 .current-heading {
     margin: 4vh 0 1.25vh;
     font-size: 21px;
-    font-weight: normal;
+    font-weight: bold;
     font-family: 'JosefinSlab-Regular';
     text-align: center;
 }

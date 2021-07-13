@@ -12,7 +12,7 @@ class Resume extends React.Component {
                 </h1>
 
                 <p className="resume-subheading">
-                Have we met? If not, let's grab a coffee! Oh, and here are some of my skills!<br/>
+                Have we met? If not, let's grab a coffee! Oh, and here are some of my skills!
                 My resume is on the navigation bar above along with my Github &amp; LinkedIn!
                 </p>
                 

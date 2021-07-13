@@ -4,10 +4,10 @@
 .works-container {
     margin: 8vh 0;
     padding: 0 0;
-    color: #fffaee;
-    background-color: #A32100;
-    box-shadow: 9.5px 9.5px 4px #FFAD99;
-    outline: 4px solid #8F1D00;
+    color: black;
+    background-color: #e9b6a5;
+    box-shadow: 6.5px 9.5px 4px #f8e8e2;
+    outline: 4px double #e4a591;
     width: 80%;
     align-self: center;
 }
@@ -24,8 +24,8 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 0 0 5vh;
-    background-color: #c77966;
-    border: 3px outset #8f7fa2;
+    background-color: #f3d7ce;
+    border: 3px outset #e9b6a5;
 }
 
 .techs-primer {
@@ -65,6 +65,7 @@
     margin: 2vh 1vw 2vh;
     font-family: 'JosefinSlab-Thin';
     font-size: 14px;
+    font-weight: bolder;
     line-height: 1.35em;
 }
 
@@ -91,7 +92,7 @@
 .radio-box h2 {
     font-family: 'JosefinSlab-Thin';
     font-size: 14px;
-    font-weight: normal;
+    font-weight: bolder;
 }
 
 .radio-buttons {
@@ -113,13 +114,13 @@
 .works-container {
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 6;
+    grid-row-start: 7;
     grid-row-end: 12;
     width: auto;
-    color: #fffaee;
-    background-color: #A32100;
-    box-shadow: 9.5px 9.5px 4px #FFAD99;
-    outline: 4px solid #8F1D00;
+    color: black;
+    background-color: #e9b6a5;
+    box-shadow: 6.5px 9.5px 4px #f8e8e2;
+    outline: 4px double #e4a591;
 }
 
 .works-cited h1 {
@@ -134,8 +135,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 0 5vh;
-    background-color: #c77966;
-    border: 3px outset #8f7fa2;
+    background-color: #f3d7ce;
+    border: 3px outset #e9b6a5;
 }
 
 .techs-primer {
@@ -174,6 +175,7 @@
     margin: 0 1vw 0;
     font-family: 'JosefinSlab-Thin';
     font-size: 18px;
+    font-weight: bolder;
     line-height: 1.25em;
 }
 
@@ -182,7 +184,7 @@
 }
 
 .this-project-p {
-    padding: 2vh 0 0;
+    padding: 2vh 0 4vh;
 }
 
 .this-project-p code {
@@ -199,8 +201,8 @@
 
 .radio-box h2 {
     font-family: 'JosefinSlab-Thin';
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 .radio-buttons {

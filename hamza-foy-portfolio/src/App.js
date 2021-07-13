@@ -7,9 +7,9 @@ import Resume from './Resume/Resume'
 function App() {
   return (
     <div className="App">
+      <Resume/>
       <Timeline/>
       <Works/>
-      <Resume/>
     </div>
   );
 }
