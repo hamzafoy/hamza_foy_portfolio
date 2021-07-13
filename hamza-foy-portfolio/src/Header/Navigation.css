@@ -22,7 +22,7 @@
 .author {
     display: flex;
     flex-direction: row;
-    font-size: .95em;
+    font-size: .75em;
     font-family: 'AdventPro-Light';
     word-spacing: .25px;
     color: #fffaee;
