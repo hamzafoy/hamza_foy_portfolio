@@ -210,4 +210,9 @@
     width: 24px;
 }
 
+.url_links {
+    text-decoration-style: double;
+    text-decoration-thickness: 0.075em;
+}
+
 }

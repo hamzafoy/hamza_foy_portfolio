@@ -23,9 +23,9 @@ const worksSection = {
 
                 <section className="techs-primer">
 
-                    <h1 className="this-project-h1">
+                    <a href="http://kebabwheels.com/" className="url_links" target="_blank" rel="noreferrer"><h1 className="this-project-h1">
                     Kebab on Wheels
-                    </h1>
+                    </h1></a>
 
                     <aside className="tech-svg-container">
                         <img className="tech-icon" src={css3} alt="CSS3 Badge"/>
@@ -51,9 +51,9 @@ const worksSection = {
 
                 <section className="techs-primer">
 
-                <h1 className="this-project-h1">
+                <a href="https://ihya-502.glitch.me/" className="url_links" target="_blank" rel="noreferrer"><h1 className="this-project-h1">
                     Ihya502 Podcast
-                    </h1>
+                    </h1></a>
 
                     <aside className="tech-svg-container">
 
@@ -81,9 +81,9 @@ const worksSection = {
 
                 <section className="techs-primer">
 
-                <h1 className="this-project-h1">
+                <a href="https://hamza-is-learning-a-bit-3.surge.sh/" className="url_links" target="_blank" rel="noreferrer"><h1 className="this-project-h1">
                     Learn-a-Bits
-                    </h1>
+                    </h1></a>
 
                     <aside className="tech-svg-container">
 
@@ -114,9 +114,9 @@ const worksSection = {
 
                 <section className="techs-primer">
 
-                <h1 className="this-project-h1">
+                <a href="https://porcus-verto.herokuapp.com/" className="url_links" target="_blank" rel="noreferrer"><h1 className="this-project-h1">
                     Pig Latin Translator
-                    </h1>
+                </h1></a>
 
                     <aside className="tech-svg-container">
                         <img className="tech-icon-resized" src={expressjs} alt="ExpressJS Badge"/>
