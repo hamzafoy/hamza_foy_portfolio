@@ -2,7 +2,7 @@
 @font-face {font-family: "JosefinSlab-Thin"; src: url("./JosefinSlab-Thin.ttf"); }
 
 .resume-container {
-    margin: 12vh 0;
+    margin: 15vh 0;
     padding: 0 0;
     color: black;
     background-color: #e9b6a5;
@@ -174,10 +174,7 @@
 }
 
 .resume-container {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 6;
+    align-self: center;
     color: black;
     background-color: #e9b6a5;
     box-shadow: 6.5px 9.5px 4px #f8e8e2;

@@ -112,11 +112,6 @@
 } */
 
 .works-container {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 7;
-    grid-row-end: 12;
-    width: auto;
     color: black;
     background-color: #e9b6a5;
     box-shadow: 6.5px 9.5px 4px #f8e8e2;

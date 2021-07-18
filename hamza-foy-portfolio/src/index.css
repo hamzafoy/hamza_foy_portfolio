@@ -6,3 +6,9 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
