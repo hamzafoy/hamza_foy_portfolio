@@ -2,7 +2,7 @@
 @font-face {font-family: "JosefinSlab-Thin"; src: url("./JosefinSlab-Thin.ttf"); }
 
 .resume-container {
-    margin: 15vh 0;
+    margin: 15vh 0 8vh;
     padding: 0 0;
     color: black;
     background-color: #e9b6a5;
